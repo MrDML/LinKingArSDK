@@ -1,0 +1,13 @@
+use_frameworks!
+install!'cocoapods',:deterministic_uuids=>false
+platform :ios, '9.0'
+
+target 'LinKingArSDK_Example' do
+  pod 'LinKingArSDK', :path => '../'
+
+
+  target 'LinKingArSDK' do
+
+  end
+  
+end
