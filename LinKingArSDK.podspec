@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LinKingArSDK'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'LinKingArSDK foreign version.'
 
 # This description is used to generate tags and improve search results.
@@ -43,12 +43,12 @@ TODO: Add long description of the pod here.
     s.dependency 'Toast', '~> 4.0.0'
     s.dependency 'FBAudienceNetwork'
     s.dependency 'IronSourceSDK','7.0.0.0'
-    s.dependency 'IronSourceAdMobAdapter','4.3.14.2'
-    s.dependency 'IronSourcePangleAdapter','4.1.5.3'
-    s.dependency 'IronSourceUnityAdsAdapter','4.3.4.1'
+    s.dependency 'Google-Mobile-Ads-SDK'
+    s.dependency 'Firebase/Analytics'
+    s.dependency 'GoogleMobileAdsMediationFacebook'
+    s.dependency 'GoogleMobileAdsMediationIronSource'
     s.xcconfig = {
         'VALID_ARCHS' =>  'arm64 x86_64 armv7',
     }
-    
     
 end
