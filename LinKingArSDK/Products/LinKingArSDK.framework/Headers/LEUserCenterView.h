@@ -22,11 +22,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UIButton *button_change;
 @property (weak, nonatomic) IBOutlet UIButton *button_binding;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView_rightArrow;
-@property (weak, nonatomic) IBOutlet UILabel *label_tipOne;
-@property (weak, nonatomic) IBOutlet UILabel *label_tipTwo;
 @property (weak, nonatomic) IBOutlet UILabel *label_or;
 @property (weak, nonatomic) IBOutlet UIButton *button_logout;
-@property (weak, nonatomic) IBOutlet UILabel *label_No_Account__Tip;
 @property (weak, nonatomic) IBOutlet UILabel *labe_Account_Tip;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *layout_account_tip_height;
 

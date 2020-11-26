@@ -29,3 +29,4 @@
 "Again login"="重新登录";
 "Could not log in. Please check your network connection and try again" = "Could not log in. Please check your network connection and try again";
 "The system version is too low, please upgrade first, continue to use Sign In With Apple"="系统版本过低，请先升级，继续使用Sign In With Apple";
+"Agreement not checked"="未勾选协议";

@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) void(^closeAlterViewCallBack)(void);
 @property (nonatomic, copy) void(^thirdBindingCallBack)(UIButton *sender);
 @property (weak, nonatomic) IBOutlet UIView *contentView;
+@property (weak, nonatomic) IBOutlet UILabel *label_tip;
 
 + (instancetype)instanceBindingView;
 

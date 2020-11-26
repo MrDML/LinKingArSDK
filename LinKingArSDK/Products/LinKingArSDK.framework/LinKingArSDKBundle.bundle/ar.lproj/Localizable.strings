@@ -34,3 +34,4 @@
 "Again login" = "الرجاء تسجيل الدخول مرة أخرى";
 "Could not log in. Please check your network connection and try again" = "لا يمكن التسجيل. تحقق من الانترنت وأعد المحاولة";
 "The system version is too low, please upgrade first, continue to use Sign In With Apple"="إصدار النظام منخفض جدًا ، يرجى الترقية أولاً ، واستمر في استخدام تسجيل الدخول مع Apple";
+"Agreement not checked"="لم يتم التحقق من الاتفاقية";

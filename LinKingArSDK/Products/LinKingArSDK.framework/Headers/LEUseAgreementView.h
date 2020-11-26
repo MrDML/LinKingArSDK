@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UILabel *label_title;
 @property (weak, nonatomic) IBOutlet UIButton *button_close;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView_close;
+@property (weak, nonatomic) IBOutlet UILabel *label_tip;
 
 + (instancetype)instanceUseAgreementView;
 @end

@@ -21,3 +21,4 @@
 #import <LinKingArSDK/LEApplePayManager.h>
 #import <LinKingArSDK/LEGoods.h>
 #import <LinKingArSDK/LEFBShareManager.h>
+#import <LinKingArSDK/LEGoogleAdManager.h>

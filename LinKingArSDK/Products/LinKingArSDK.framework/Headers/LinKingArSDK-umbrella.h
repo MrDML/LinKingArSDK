@@ -11,6 +11,7 @@
 #endif
 
 #import "LEFacebookAdManager.h"
+#import "LEGoogleAdManager.h"
 #import "LEIronSourceAdManager.h"
 #import "LEAdManager.h"
 #import "MF_Base64Additions.h"
@@ -69,6 +70,7 @@
 #import "UIRefreshControl+MaterialDesignSpinner.h"
 #import "LEFloatView.h"
 #import "LEKeyChainStore.h"
+#import "LELoading.h"
 #import "LEUUID.h"
 #import "LEVersion.h"
 #import "LEImageCache.h"
