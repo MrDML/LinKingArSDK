@@ -11,6 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LEVersion : NSObject
+
+@property (copy, nonatomic) void (^goUpdateCallback)(void);
 /**
  *  打开APPStore在本应用 默认是不打开的
  */
