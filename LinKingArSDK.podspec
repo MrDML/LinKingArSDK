@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LinKingArSDK'
-  s.version          = '0.1.16'
+  s.version          = '0.1.17'
   s.summary          = 'LinKingArSDK foreign version.'
 
 # This description is used to generate tags and improve search results.
@@ -35,8 +35,8 @@ TODO: Add long description of the pod here.
     s.vendored_frameworks = "LinKingArSDK/Products/LinKingArSDK.framework"
     s.resources = "LinKingArSDK/Assets/*.*"
     s.dependency 'GoogleSignIn', '~> 5.0.2'
-    s.dependency 'Firebase/Auth'
-    s.dependency 'Firebase/Analytics'
+    s.dependency 'Firebase/Auth', '~> 4.0.0'
+    s.dependency 'Firebase/Analytics','~> 4.0.0'
     s.dependency 'FBSDKLoginKit', '~> 6.3.0'
     s.dependency 'FBSDKShareKit', '~> 6.3.0'
     s.dependency 'AppsFlyerFramework', '~> 6.1.4'
