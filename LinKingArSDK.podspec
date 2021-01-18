@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LinKingArSDK'
-  s.version          = '0.1.14'
+  s.version          = '0.1.15'
   s.summary          = 'LinKingArSDK foreign version.'
 
 # This description is used to generate tags and improve search results.
