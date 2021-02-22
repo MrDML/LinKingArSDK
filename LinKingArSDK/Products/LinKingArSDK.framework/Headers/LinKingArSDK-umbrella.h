@@ -64,7 +64,6 @@
 #import "LEFBAnalyticsManager.h"
 #import "LEPointManager.h"
 #import "LESFPointManager.h"
-#import "LEFBShareManager.h"
 #import "ActivityTracking.h"
 #import "MMMaterialDesignSpinner.h"
 #import "UIRefreshControl+MaterialDesignSpinner.h"
