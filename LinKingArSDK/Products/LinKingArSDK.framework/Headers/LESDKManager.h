@@ -15,10 +15,12 @@
 @class LEPointManager;
 @class LEApplePayManager;
 @class LEFBShareManager;
+@class LEUser;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LESDKManager : NSObject
 @property (nonatomic, copy) void(^initializeSDKCallBack)(LESDKManager *manager,NSError *error);
+@property (nonatomic, copy) void(^quickStartCompleteCallBack)(LEUser *user,NSError *error);
 @property (nonatomic, strong,readonly) LEOauthManager *oauthManager;
 @property (nonatomic, strong,readonly) LEAdManager *adManager;
 @property (nonatomic, strong,readonly) LEIronSourceAdManager *ironsAdManager;

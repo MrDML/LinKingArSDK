@@ -34,6 +34,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 显示仪表盘
 /// @param viewController 根控制器
 - (void)showFloatViewDashboard:(UIViewController *)viewController;
+/// 显示绑定视图
+/// @param viewController 根控制器 binding
+- (void)binding:(UIViewController *)viewController complete:(void(^)(LEUser *_Nullable user,NSError * _Nullable error))complete;
 // 隐藏仪表盘
 - (void)hiddenFloatViewDashboard;
 /// 退出登录
