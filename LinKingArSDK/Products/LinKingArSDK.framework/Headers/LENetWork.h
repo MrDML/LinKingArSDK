@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class AFHTTPSessionManager;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LENetWork : NSObject
-+(LENetWork *)sharedHttpSessionManager;
++(AFHTTPSessionManager *)sharedHttpSessionManager;
 + (void)getWithURLString:(NSString *)urlString success:(void(^)(id responseObject))success failure:(void(^)(NSError *error))failure;
 
 // 参数不做处理
