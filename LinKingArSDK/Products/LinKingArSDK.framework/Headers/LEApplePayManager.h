@@ -22,6 +22,8 @@ typedef enum {
     PurchOrderNotExist = 10, // 支付订单不存在
     PurchOrderClosed = 11, // 支付订单已结束
     PurchOrderNoComplete = 12, // 支付订单未完成
+    PurchAbnormalOrder = 13, // 异常订单
+    PurchOrderFail = 14, // 订单创建失败
 }PurchType;
 NS_ASSUME_NONNULL_BEGIN
 typedef void (^CompletionHandle)(PurchType type,NSError * _Nullable error);
